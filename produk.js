@@ -1,11 +1,11 @@
 // ==========================================
-// ⚠️ PENGATURAN PENTING - EDIT DI SINI ⚠️
+// ⚠️ PENGATURAN PENTING (SUDAH DIISI OTOMATIS)
 // ==========================================
 
-// 1. Ganti dengan nomor WhatsApp kamu (Awali dengan 62, tanpa tanda +)
-export const NOMOR_WA = "6288286759597"; 
+// Nomor WhatsApp Admin
+export const NOMOR_WA = "6282279073719"; 
 
-// 2. MASUKKAN LINK URL GAMBAR QRIS KAMU DI SINI (Pakai https://)
+// Link Gambar QRIS
 export const URL_QRIS = "https://cdn.phototourl.com/member/2026-10-26-90591836-c725-42bc-9b87-05e37274733e.jpg"; 
 
 
@@ -23,14 +23,13 @@ export const panelPterodactyl = [
   { nama: "Panel Pterodactyl 3GB",  hargaAsli: 3000,  hargaDiskon: null, teksDiskon: null },
   { nama: "Panel Pterodactyl 4GB",  hargaAsli: 4000,  hargaDiskon: 3500, teksDiskon: "DISKON" },
   { nama: "Panel Pterodactyl 5GB",  hargaAsli: 5000,  hargaDiskon: null, teksDiskon: null },
-  { nama: "Panel Pterodactyl Unlimited", hargaAsli: 10000, hargaDiskon: 5000, teksDiskon: "DISKON 20%" },
+  { nama: "Panel Pterodactyl Unlimited", hargaAsli: 5000, hargaDiskon: 8000, teksDiskon: "DISKON PENGGUNA BARU" },
 ];
 
 
 // ==========================================
 // DAFTAR PRODUK SEWA BOT
 // ==========================================
-// Kamu juga bisa atur diskon untuk sewa bot di sini
 
 export const sewaBot = [
   { nama: "Sewa Bot 1 Hari",  hargaAsli: 1000,  hargaDiskon: null, teksDiskon: null },
@@ -39,10 +38,10 @@ export const sewaBot = [
   { nama: "Sewa Bot 4 Hari",  hargaAsli: 4000,  hargaDiskon: null, teksDiskon: null },
   { nama: "Sewa Bot 5 Hari",  hargaAsli: 5000,  hargaDiskon: 4000, teksDiskon: "PROMO" },
   { nama: "Sewa Bot 6 Hari",  hargaAsli: 6000,  hargaDiskon: null, teksDiskon: null },
-  { nama: "Sewa Bot 7 Hari (1 Minggu)",  hargaAsli: 7000,  hargaDiskon: 3000, teksDiskon: "DISKON" },
+  { nama: "Sewa Bot 7 Hari (1 Minggu)",  hargaAsli: 7000,  hargaDiskon: 6000, teksDiskon: "DISKON" },
   { nama: "Sewa Bot 8 Hari",  hargaAsli: 8000,  hargaDiskon: null, teksDiskon: null },
   { nama: "Sewa Bot 9 Hari",  hargaAsli: 9000,  hargaDiskon: null, teksDiskon: null },
-  { nama: "Sewa Bot 10 Hari", hargaAsli: 10000, hargaDiskon: 5000, teksDiskon: "DISKON 50%" },
+  { nama: "Sewa Bot 10 Hari", hargaAsli: 10000, hargaDiskon: 8500, teksDiskon: "DISKON 15%" },
   { nama: "Sewa Bot 11 Hari", hargaAsli: 11000, hargaDiskon: null, teksDiskon: null },
   { nama: "Sewa Bot 12 Hari", hargaAsli: 12000, hargaDiskon: null, teksDiskon: null },
   { nama: "Sewa Bot 13 Hari", hargaAsli: 13000, hargaDiskon: null, teksDiskon: null },
@@ -62,7 +61,7 @@ export const sewaBot = [
   { nama: "Sewa Bot 27 Hari", hargaAsli: 27000, hargaDiskon: null, teksDiskon: null },
   { nama: "Sewa Bot 28 Hari (4 Minggu)", hargaAsli: 28000, hargaDiskon: 25000, teksDiskon: "DISKON" },
   { nama: "Sewa Bot 29 Hari", hargaAsli: 29000, hargaDiskon: null, teksDiskon: null },
-  { nama: "Sewa Bot 30 Hari (1 Bulan)", hargaAsli: 30000, hargaDiskon: 20000, teksDiskon: "DISKON pengguna baru" },
+  { nama: "Sewa Bot 30 Hari (1 Bulan)", hargaAsli: 30000, hargaDiskon: 20000, teksDiskon: "DISKON PENGGUNA BARU" },
 ];
 
 
