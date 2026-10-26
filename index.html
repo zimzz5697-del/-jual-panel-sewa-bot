@@ -35,8 +35,11 @@
     
     /* Area QRIS & Pembayaran */
     .pembayaran-box { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-top: 20px; text-align: center; }
-    .disclaimer { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: left; font-size: 14px; line-height: 1.5; }
-    .disclaimer strong { color: #d93025; }
+    
+    /* Disclaimer Baru */
+    .disclaimer-1 { background: #fce8e6; color: #c5221f; border: 1px solid #fad2cf; padding: 15px; border-radius: 8px; margin-bottom: 15px; text-align: left; font-size: 14px; line-height: 1.5; font-weight: bold; }
+    .disclaimer-2 { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: left; font-size: 14px; line-height: 1.5; }
+    .disclaimer-2 strong { color: #d93025; }
     
     /* Animasi QRIS */
     .qris-container { width: 250px; height: 250px; margin: 0 auto 20px; position: relative; background: #f8f9fa; border-radius: 10px; border: 2px dashed #ccc; display: flex; justify-content: center; align-items: center; overflow: hidden; }
@@ -64,8 +67,14 @@
     <div class="pembayaran-box">
       <h2 style="margin-top:0; border:none; color: #1a73e8;">💳 Pembayaran via QRIS</h2>
       
-      <div class="disclaimer">
-        <strong>⚠️ DISCLAIMER PENTING:</strong><br/>
+      <!-- DISCLAIMER BARU: Hubungi Admin Sebelum Order -->
+      <div class="disclaimer-1">
+        📢 <b>PENTING:</b> Silakan hubungi Admin terlebih dahulu untuk memastikan <b>ketersediaan stok</b> sebelum melakukan pembayaran/transfer!
+      </div>
+
+      <!-- DISCLAIMER LAMA -->
+      <div class="disclaimer-2">
+        <strong>⚠️ DISCLAIMER PEMBAYARAN:</strong><br/>
         1. Lakukan transfer <b>sesuai harga</b> yang tertera.<br/>
         2. <b>WAJIB</b> screenshot / foto bukti transfer.<br/>
         3. Kirimkan bukti transfer tersebut ke Admin via WhatsApp.<br/>
